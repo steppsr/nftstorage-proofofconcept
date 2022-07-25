@@ -10,6 +10,13 @@
 * ouput the local file hash
 * ouput the remote file hash (by downloading the remote file and then hashing)
 
+### Prerequisites
+You will need to install `jq` in order to parse the CID out of the JSON response from NFT.storage. 
+Here is how to do that install:
+```
+sudo apt install jq
+```
+
 ### Preparing to run
 You will need to edit the script and add in your file name.
 You will also need an API key from nft.storage. You can create an account here: [Create NFT Storage Account](https://nft.storage/docs/#create-an-account)
